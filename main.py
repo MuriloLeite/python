@@ -1,12 +1,7 @@
+#Números pares de 0 a 1000:
+
+
 lista = []
-lista_pares = []
-for i in range(1001):
-     lista.append(i)
-for j in range(len(lista)):
-    if j % 2 == 0:
-        lista_pares.append(j)
-
-
+for i in range(0, 1001, 2):
+    lista.append(i)
 print(lista)
-print(".........")
-print(lista_pares)
