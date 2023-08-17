@@ -1,0 +1,1 @@
+print(dict(nome="pedro", idade=25, telefone=40981231), dict(nome="joao", idade=21, telefone=21312))
